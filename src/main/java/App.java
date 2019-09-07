@@ -1,9 +1,14 @@
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args)
     {
         //The code execution
-        String plainText = "CATES";
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a word: ");
+        String plainText = input.nextLine();
+        System.out.println("The plain text is: ");
         int key = 3;
         System.out.println("Text  : " + plainText);
         System.out.println("Shift : " + key);
