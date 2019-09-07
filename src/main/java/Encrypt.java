@@ -1,16 +1,26 @@
 public class Encrypt {
 
-    public String Encrypt(String plainText, int key){
+    public static StringBuffer encryption(String plainText, int key){
 
-        //Declare the alphabet
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        //Encrypt the text
+        StringBuffer encrypt = new StringBuffer();
+        for (int i = 0; i < plainText.length(); i++){
 
-        //Find character in the alphabet
-        StringBuilder encrypt = new StringBuilder(plainText);
-        for(int i = 0; i < encrypt.length; i++){
-            char plainChar = encrypt.charAt(i);
-            int plainIndex = alphabet.indexOf(plainChar);
+            //Check if text is upper case
+            if (Character.isUpperCase(plainText.charAt(i))){
+                char c = (char) (((int)plainText.charAt(i) + key -65) % 26 + 65);
+                encrypt.append(c);
+
+                //Check if text is lower case
+            } else {
+                char c = (char) (((int)plainText.charAt(i) + key -97) % 26 + 97);
+                encrypt.append(c);
+
+            }
         }
+
+        return encrypt;
+
     }
 
 }
