@@ -11,7 +11,7 @@ public class App {
 
             //Enable the user to choose an option
             Scanner option = new Scanner(System.in);
-            System.out.println("Welcome to the Caeser Cipher Application. Choose one of the following options: Encrypt, Decrypt, or Exit");
+            System.out.println("Welcome to the Ceaser Cipher Application. Choose one of the following options: Encrypt, Decrypt, or Exit");
 
 
 
