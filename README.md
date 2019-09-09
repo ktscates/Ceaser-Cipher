@@ -18,6 +18,10 @@ A Caesar cipher is a type of substitution in which each letter is shifted a cert
 * The same process is done if the user chooses the "Decrypt" option except that this time the application will decrypt the encrypted word.
 * Then the application will output the decrypted word.
 * If the user chooses the "Exit" option, the application will exit. 
+## Screenshots
+<img src="welcome.png"
+     alt="welcome"
+     style="float: left; margin-right: 10px;" />
 ## Known Bugs
 There no bugs in the application.
 ## Technologies Used
@@ -26,4 +30,3 @@ There no bugs in the application.
 If you run into errors, please feel free to contact me on github.
 ### License
 Copyright (c) 2019 **Cates NSENGIYUMVA**
-  ``
