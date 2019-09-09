@@ -21,16 +21,6 @@ A Caesar cipher is a type of substitution in which each letter is shifted a cert
 ## Screenshots
 # Welcome
 ![Screenshot of homepage](welcome.png)
-# Encrypt
-![Screenshot of encrypt](encrypt.png)
-# Decrypt
-![Screenshot of decrypt](decrypt.png)
-# Encrypt test
-![Screenshot of encrypttest](encrypttest.png)
-# Decrypt test
-![Screenshot of decrypttest](decrypttest.png)
-# Exit page
-![Screenshot of exit](exit.png)
 ## Known Bugs
 There no bugs in the application.
 ## Technologies Used

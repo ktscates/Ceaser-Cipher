@@ -4,7 +4,11 @@
     <list default="true" id="9b9fe3cc-df18-4de4-b5d4-ba3cde63db95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/decrypt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/decrypttest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ecrypttest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/encrypt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/exit.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +45,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -135,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567671985422</updated>
     </task>
+    <task id="LOCAL-00001" summary="Edit README file">
+      <created>1568024423834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568024423834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +164,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit README file" />
   </component>
 </project>
